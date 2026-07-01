@@ -43,7 +43,7 @@ if total == 0:
     print(name, "\t|>> Hello here is no Challan. Safe Driver!")
 else:
     print("\t|>>", name, "Your Challan is Pending...")
-    print("\t|>>Your Speed => ", speed, "km/h")
+    print("\t|>> Your Speed => ", speed, "km/h")
     print("\t|>> Your Mistakes:\n", reason)
     print("\t|>> Total bill = $", total)
 print("===================================")

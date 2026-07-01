@@ -14,7 +14,7 @@ elif weight >= 50 and weight <= 80:
 elif weight > 80 and weight <= 120:
     print("Overweight..! \n[Aapka weight thoda zyada hai, \nPlease Start the Exercise...]")
 else:
-    print("Please Enter Valid Age format..!!! & Run again this Code...")
+    print("Please Enter Valid Weight format..!!! & Run again this Code...")
 print("--------------------------------------")
 print("Thank you, Visit Again...!")
 print("======================================\n")
