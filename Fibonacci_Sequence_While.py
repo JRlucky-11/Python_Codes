@@ -1,0 +1,12 @@
+num = int(input("Enter Num: "))
+frist_num = 0
+second_num = 1
+final_num = 0
+i = 1
+
+while(i <= num):
+    final_num = frist_num + second_num
+    frist_num = second_num
+    second_num = final_num
+    print("\t|> ", final_num)
+    i += 1

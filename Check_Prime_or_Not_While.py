@@ -1,8 +1,10 @@
 num = int(input("Enter Your Num: "))
 chek = 0
-for i in range(1, num+1):
+i  = 1
+while(i <= num):
     if(num % i == 0):
         print("|> Devisible by: ", i)
+    i += 1
 
 print("\n")
 if(chek == 2):

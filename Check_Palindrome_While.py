@@ -4,10 +4,12 @@ reminder = 0
 sum = 0
 
 check = num
-for i in range(1, len(str(num)) + 1):
+i = 1
+while(i <= num):
     reminder = num % 10
     sum = (sum * 10) + reminder
     num = num // 10
+    i += 1
 
 if (sum == check):
     print("Yes, It is a Palindrome Number.")
