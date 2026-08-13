@@ -8,18 +8,19 @@ print(str2.center(120))
 size = int(input("|> Eneter Size of List: ")) # input size of list
 print("")
 list2 = [int(input("\t> Enter " + str(i+1) + " Element: ")) for i in range(0,size)]
+list2 = sorted(list2)
 print("")
 print("|> Your List: ", list2)
 
 print("")
 target = int(input("|> Enter Your Target to Search in this List: "))
-print("\t> Target Locked -> ", target, "<--")
+print("\t> Target Locked -> ", target, "<-")
 print("")
 
 st_idx = 0
 en_idx = size - 1
 mid_idx = 0
-found = False
+found = False # Flag Imagine
 
 while(st_idx <= en_idx):
     mid_idx = (st_idx + en_idx) // 2

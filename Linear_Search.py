@@ -21,6 +21,7 @@ found = False
 for i in range(0, size):
     if(list2[i] == target):
         print("\t\t>> Target Found at Index: ", i)
+        break
         found = True
 
 if not found:
