@@ -1,5 +1,5 @@
 print("="*100)
-size = int(input("|> How manny Numbers you want to input?: ")) # input size of list
+size = int(input("|> How many Numbers you want to input?: ")) # input size of list
 list2 = []
 list2 = [int(input("\t|> Enter " + str(i+1) + " Number: ")) for i in range(0,size)]
 print("\t|> Your all Numbers are: ", list2)
