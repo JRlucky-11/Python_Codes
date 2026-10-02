@@ -9,5 +9,5 @@ print("- " * 30)
 if(word == chk_word):
     print(f"\t|>> Confrim '{word}' It is a Plindrum.")
 else:
-    raise ValueError(f"\t|>> No, Your String is not Palindrum String. Please Check!")
+    raise ValueError(f"|>> No, Your String is not Palindrum String. Please Check!")
 print("~" * 100)

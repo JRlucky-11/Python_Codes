@@ -1,2 +1,2 @@
-square = {i*i*i for i in range(1,11)}
-print(square)
+square = {3*i for i in range(1,11)}
+print(sorted(square))

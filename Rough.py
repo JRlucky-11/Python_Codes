@@ -1,34 +1,32 @@
-# turtle\\>>>
-# coordinet geometry
-# random
-# json
-# csv -> Comma Separeted Value
-# dict
-# function
+# class A:
+#     def Show(self):
+#         print("A")
+# class B(A):
+#     def Show(self):
+#         print("B")
+# class C(A):
+#     def Show(self): # Dimond Problem
+#         print("C")
+# class D(C,B):
+#     # def Show(self):
+#     #     print("D")
+#     pass
+    
+# obj1 = D()
+# obj1.Show()
+# print(D.mro()) # Method Resolution Order
 
-# 1. WAP take 2 inputs from user calculates division of those 2 inputs & handel ValuError, ZeroDivisionError. ---.>>
-# 2. input(year-month-date) = calculate age -> if 15< not raise, 15> raise error. -->>> 
-# - input Year 
-# - input month
-# - input date
-# --------------
-# calculate real age
-# \
-# if age < 15 -> raise error 
+# class Person:
+#     def __init__ (self, name):
+#         self.name = name
+# class Student(Person):
+#     def __init__(self, Ainame, name):
+#             super().__init__(name)
+#             self.Ainame = Ainame
 
-# 3. Check palindrrom raise error. str
-# input str ->> aba
-# aba check aba
-# --> palaindrum string nehi toh ek errorr raise karo. ok yes chalo karte hein
-# ok start
+# s1 = Student("Tony", "Jarvis") 
+# print(s1.Ainame)
+# print(s1.name)
 
-# 4. input(number [121]) int
-# chk_pldm = lambda n: str(n) == str(n)[::-1]
-# num = int(input("Enter your Number to Check: "))
-# if chk_pldm(num):
-#     print(f"Yes, It is a Palindrum Number. -> {num}")
-# else:
-#     raise ValueError("\t|>> No, it is not Palindrome Number. Please Check!")
-
-# 5. dictioanry all operation exception handel
-# 6. 
+# Employee Name
+# MRO

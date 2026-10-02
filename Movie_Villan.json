@@ -1,0 +1,50 @@
+[
+    {
+        "Name": "Iron_Man_1",
+        "Villan": "Obadiah Stane"
+    },
+    {
+        "Name": "Iron_Man_2",
+        "Villan": "Ivan Vanko"
+    },
+    {
+        "Name": "Iron_Man_3",
+        "Villan": "Aldrich Killian"
+    }, 
+    {
+        "Name": "Avengers",
+        "Villan": "Loki"
+    },
+    {
+        "Name": "Avengers_Age_of_Ultron",
+        "Villan": "Ultron"
+    },
+    {
+        "Name": "Avengers_Infinity_War",
+        "Villan": "Thanos"
+    },
+    {
+        "Name": "Avengers_Endgame",
+        "Villan": "Thanos"
+    },
+    {
+        "Name": "Black_Panther",
+        "Villan": "Erik Killmonger"
+    },
+    {
+        "Name": "Doctor_Strange",
+        "Villan": "Kaecilius"
+    },
+    {
+        "Name": "Spider_Man_Homecoming",
+        "Villan": "Adrian Toomes"
+    },
+    {
+        "Name": "Spider_Man_Far_From_Home",
+        "Villan": "Mysterio"
+    },
+    {
+        "Name": "Spider_Man_No_Way_Home",
+        "Villan": "Green Goblin"
+    }
+]
